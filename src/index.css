@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-midnight: #23262f;
+  --color-tahiti: #a68554;
+  --color-gold: #b99766;
+  --color-go: #8c6b36;
+
+  --color-text: #44474e;
+
+  --color-gray: #33363f;
+
+  --breakpoint-xs: 447px;
+  --breakpoint-dd: 517px;
+  --breakpoint-mm: 529px;
+  /* --breakpoint-3xl: 120rem; */
+}
+
+/* @theme {
+ 
+} */
