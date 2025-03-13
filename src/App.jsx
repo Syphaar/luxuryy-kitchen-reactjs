@@ -23,7 +23,7 @@ function App() {
       offset: 100,
       duration: 800,
       easing: "ease-in-size",
-      delay: 800,
+      delay: 1000,
     });
     Aos.refresh();
   }, []);

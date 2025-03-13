@@ -20,7 +20,7 @@ const Quotation2 = [
 
 const About = ({ aboutRef }) => {
     return (
-        <div ref={aboutRef} id="about" className="bg-(--color-midnight)">
+        <div ref={aboutRef} id="about" className="bg-(--color-midnight) overflow-hidden">
             <div className="px-7 pt-12 md:pt-16 md:px-10 lg:px-24 xl:px-44">
                 <div className="lg:pb-7">
                     {Heading.map((data) => (

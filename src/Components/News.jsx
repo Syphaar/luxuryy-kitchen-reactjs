@@ -32,7 +32,7 @@ const Content = [
     },
     {
         id:4,
-        image: "src/assets/img/fourth.JPG",
+        image: "https://res.cloudinary.com/dlcoacdkb/image/upload/v1740653500/fourth_n4d8cq.jpg",
         header: "Gallery Style shaker kitchen in Jos",
         p1: "13 October 2022",
         p2: "By Admin",
