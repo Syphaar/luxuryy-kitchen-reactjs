@@ -10,7 +10,7 @@ const Customers = () => {
                     {Heading.map((header) => (
                         <div key={header.id} className="pb-4 lg:pb-10">
                             <h3 className="text-2xl pb-2 font-bold text-(--color-tahiti) lg:text-4xl">{header.subheading}</h3>
-                            <p className="text-96 text-white font-bold sm:px-20 md:px-32 lg:px-44 lg:text-2xl xl:px-60">Here's what our satisfied clients are saying</p>
+                            <p className="text-96 text-white font-bold sm:px-20 md:px-32 lg:px-44 lg:text-2xl xl:px-60">Here is what our satisfied clients are saying</p>
                         </div>
                     ))}
                 </div>

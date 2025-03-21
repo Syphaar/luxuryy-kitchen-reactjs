@@ -1,4 +1,5 @@
 import { TbNumber25Small } from "react-icons/tb";
+import PropTypes from "prop-types"; // Import prop-types
 
 const Heading = [
     {id:1, subheading: "Our Projects"}
@@ -63,6 +64,14 @@ const Promo = ({ projectsRef }) => {
             </div>
         </div>
     )
-}
+};
+
+// Define prop types
+Promo.propTypes = {
+    projectsRef: PropTypes.oneOfType([
+        PropTypes.func,
+        PropTypes.shape({ current: PropTypes.any }),
+    ]),
+};
 
 export default Promo;

@@ -2,7 +2,7 @@ import { PiHandshakeThin } from "react-icons/pi";
 import { PiLightbulbFilamentLight } from "react-icons/pi";
 import { CiMedal } from "react-icons/ci";
 import { GiMoneyStack } from "react-icons/gi";
-
+import PropTypes from "prop-types"; // Import prop-types
 
 const Heading = [
     {id:1, subheading: "Services"}
@@ -61,6 +61,14 @@ const Chooseus = ({ servicesRef }) => {
             </div>
         </div>
     )
-}
+};
+
+// Define prop types
+Chooseus.propTypes = {
+    servicesRef: PropTypes.oneOfType([
+        PropTypes.func,
+        PropTypes.shape({ current: PropTypes.any }),
+    ]),
+};
 
 export default Chooseus;

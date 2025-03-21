@@ -1,4 +1,5 @@
 import { FaArrowRight } from "react-icons/fa";
+import PropTypes from "prop-types"; // Import prop-types
 
 const Sectionone = ({ sectiononeRef }) => {
     return (
@@ -22,6 +23,14 @@ const Sectionone = ({ sectiononeRef }) => {
             </div>
         </div>
     )
-}
+};
+
+// Define prop types
+Sectionone.propTypes = {
+    sectiononeRef: PropTypes.oneOfType([
+        PropTypes.func,
+        PropTypes.shape({ current: PropTypes.any }),
+    ]),
+};
 
 export default Sectionone;

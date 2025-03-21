@@ -1,4 +1,5 @@
 import { FaArrowRight } from "react-icons/fa"
+import PropTypes from "prop-types"; // Import prop-types
 
 const Heading = [
     {id:1, subheading: "About Us"}
@@ -81,6 +82,14 @@ const About = ({ aboutRef }) => {
             </div>
         </div>
     )
-}
+};
+
+// Define prop types
+About.propTypes = {
+    aboutRef: PropTypes.oneOfType([
+        PropTypes.func,
+        PropTypes.shape({ current: PropTypes.any }),
+    ]),
+};
 
 export default About;

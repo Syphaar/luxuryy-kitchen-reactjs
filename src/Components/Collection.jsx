@@ -1,27 +1,3 @@
-const Collect = [
-    {
-        id:1,
-        name: "country collection",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, quam!",
-        link: "read more",
-    },
-    {
-        id:2,
-        name: "concord collection",
-        linkss: "read more",
-    },
-    {
-        id:3,
-        name: "classic collection",
-        linkss: "read more",
-    },
-    {
-        id:4,
-        name: "luxor collection",
-        linkss: "read more",
-    },
-]
-    
 const Collection = () => {
     return (
         <div className="bg-(--color-midnight)">
